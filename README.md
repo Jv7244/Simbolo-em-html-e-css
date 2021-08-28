@@ -1,1 +1,1 @@
-Projeto de criação dos simbolos da olímpiada utilizando o Html e Css
+Projeto de criação dos simbolos da olimpíada utilizando o Html e Css
