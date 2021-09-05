@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="C:\Victor\Programing\Simbolo\style\styleSobre.css">	
+	<link rel="stylesheet" type="text/css" href="C:\Victor\Programing\Simbolo\style\effectsSobre.css">
+	<script type="text/javascript" src="C:\Victor\Programing\Simbolo\.js\europa.js"></script>
+	<title>Sobre a Europa</title>
+</head>
+<body>
+
+<div class="pagina">
+
+		<h1>Europa</h1>
+		<a href="C:\Victor\Programing\Simbolo\index.html">
+		<img id="voltar" src="https://image.flaticon.com/icons/png/512/60/60577.png" alt="voltar" width="50px"></a>
+		<h2>Paises participantes</h2>
+
+    <div class="box">
+		<div class="imagens grow" id="um">
+			
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/290px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png" alt="Grã Bretania" width="100px" onclick="grabretania()">
+		
+			<!-- <img id="medalhas" src="https://img2.gratispng.com/20180809/uyo/kisspng-gold-medal-silver-medal-award-olympic-medal-4-5b6c6113c83086.62458168153382939582.jpg" width="40px" height="0px"> -->
+        </div>
+
+		<div class="imagens grow" id="dois">
+			<img src="https://m.media-amazon.com/images/I/21WMHeDOcIL._AC_.jpg" alt="Holanda" width="100px">
+		</div>
+
+		<div class="imagens grow" id="tres">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/255px-Flag_of_France.svg.png" alt="franca" width="100px">
+		</div>
+
+		<div class="imagens grow" id="quatro">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png" alt="alemanha" width="100px">
+		</div>
+
+		<div class="imagens grow" id="cinco">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png" alt="italia" width="100px">
+		</div>
+
+		<div class="imagens grow" id="seis">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/255px-Flag_of_Hungary.svg.png" alt="hungria" width="100px">
+		</div>
+
+		<div class="imagens grow" id="sete">
+			<img src="data:image/png;base64,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" alt="polonia" width="100px">
+		</div>
+	
+	<div class="imagens grow" id="oito">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/255px-Flag_of_the_Czech_Republic.svg.png" alt="republica tcheca" width="100px">
+	</div>
+
+	<div class="imagens grow" id="nove">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOoAAACqCAMAAACUEiMQAAAAJ1BMVEW6DC8AIFv///9fc5jLSWNzhaVFXIfHOVXTZXvVa4DejJwrRnYaNmvqo1TjAAABKklEQVR4nO3aOW4DMRAAwbV8H/9/rzM7EWBjSUBsqjolQLLSwRzHWK+Xn54frvTye/42+NStQ0VNh4qaDhU1HSpqOlTUdKio6VBR06GipkNFTYeKmg4VNR0qajpU1HSoqOlQUdOhoqZDRU2HipoOFTUdKmo61CWpT2O9/5/6MfjUaMdlWn9Rbx3qmVCXCfVMqMuEeibUZToep/V5jfo17/7Rjmv/2zPUHUPdMdQdQ90x1B1D3THUHUPdMdQduyfqvDHV8mO0ecPH5Yej865CXSbUM6EuE+qZUJfpnqiD22ylxbvBSuuUg6GipkNFTYeKmg4VNR0qajpU1HSoqOlQUdOhoqZDRU2HipoOFTUdKmo6VNR0qKjpUFHToaKmQ0VNh4qaDhU1HeqK1G9pQ2wbZlP5AgAAAABJRU5ErkJggg==
+" alt="noruega" width="100px">
+	</div>
+
+	<div class="imagens grow" id="dez">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/255px-Flag_of_Spain.svg.png" alt="espanha" width="100px">
+	</div>
+
+
+
+
+
+
+	</div>
+
+
+<div id="teste">
+	<h1>tudo calculado</h1>
+	<p>pra que isso</p>
+</div>
+
+</div>
+</body>
+</html>

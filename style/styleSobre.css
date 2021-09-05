@@ -1,0 +1,70 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: linear-gradient(to bottom right, #000000 0%, blue 100%);
+}
+.imagens{
+	width: 100px;
+	border: 1px solid rgba(0,0,0,0);
+	padding: 10px;
+	cursor: pointer;
+}
+.box{
+	width: 95%;
+    height: 450px;
+	border: 1px solid red;
+}
+.pagina{
+	color: white;
+	margin-left: 5%;
+}
+#dois{
+
+}
+#tres{
+
+}
+#quatro{
+
+}
+#cinco{
+
+}
+#seis{
+    margin-left: auto;
+    margin-right: 0%;
+    margin-top: -450px;
+}
+#sete{
+    margin-left: auto;
+    margin-right: 0%;
+
+}
+#oito{
+    margin-left: auto;
+    margin-right: 0%;
+
+}
+#nove{
+    margin-left: auto;
+    margin-right: 0%;
+
+}
+#dez{
+    margin-left: auto;
+    margin-right: 0%;
+
+}
+
+#voltar{
+	margin-left: 86%;
+    margin-right: 0%;
+}
+
+
+
+
+#medalhas{
+	margin-top:
+}
